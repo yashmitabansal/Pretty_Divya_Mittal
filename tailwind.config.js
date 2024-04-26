@@ -1,0 +1,108 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        white: "#fff",
+        pink: {
+          "100": "#e2aeae",
+          "200": "rgba(226, 174, 174, 0.94)",
+        },
+        rosybrown: {
+          "100": "#a87b74",
+          "200": "#8f6159",
+        },
+        gainsboro: {
+          "100": "#e6e6e6",
+          "200": "rgba(217, 217, 217, 0.6)",
+          "300": "rgba(217, 217, 217, 0.52)",
+        },
+        black: "#000",
+        olive: {
+          "100": "#baac32",
+          "200": "rgba(123, 97, 4, 0.14)",
+        },
+        gray: {
+          "100": "#191919",
+          "200": "rgba(0, 0, 0, 0.35)",
+        },
+        darksalmon: "#e68b7b",
+        darkgoldenrod: "#947506",
+      },
+      spacing: {},
+      fontFamily: {
+        poppins: "Poppins",
+        "rubik-mono-one": "'Rubik Mono One'",
+        prata: "Prata",
+        inter: "Inter",
+        alike: "Alike",
+      },
+      borderRadius: {
+        "31xl": "50px",
+        xl: "20px",
+        "1348xl": "1367px",
+        "324xl": "343px",
+        "16xl": "35px",
+        "81xl": "100px",
+        "281xl": "300px",
+        "312xl": "331px",
+        "301xl": "320px",
+        "312xl-5": "331.5px",
+        "8xs": "5px",
+        mini: "15px",
+        "61xl": "80px",
+      },
+    },
+    fontSize: {
+      "5xl": "24px",
+      lgi: "19px",
+      "13xl": "32px",
+      "7xl": "26px",
+      "17xl": "36px",
+      "3xl": "22px",
+      "10xl": "29px",
+      "11xl": "30px",
+      lg: "18px",
+      xl: "20px",
+      base: "16px",
+      "26xl": "45px",
+      "8xl": "27px",
+      "41xl": "60px",
+      "56xl": "75px",
+      "77xl": "96px",
+      mini: "15px",
+      "66xl": "85px",
+      "3xs": "10px",
+      sm: "14px",
+      "19xl": "38px",
+      "32xl": "51px",
+      "45xl": "64px",
+      "21xl": "40px",
+      "4xs": "9px",
+      "6xl": "25px",
+      "55xl": "74px",
+      "25xl": "44px",
+      "40xl": "59px",
+      "9xl": "28px",
+      inherit: "inherit",
+    },
+    screens: {
+      mq1300: {
+        raw: "screen and (max-width: 1300px)",
+      },
+      mq1125: {
+        raw: "screen and (max-width: 1125px)",
+      },
+      mq800: {
+        raw: "screen and (max-width: 800px)",
+      },
+      mq450: {
+        raw: "screen and (max-width: 450px)",
+      },
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
